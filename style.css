@@ -108,4 +108,11 @@ body {
     padding-left: 4%;
     text-align: left;
   }
+
+  .fp-widget {
+    margin-top: 3%;
+    background-color: #0e0e0e;
+    border: none;
+    box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1);
+  }
   
