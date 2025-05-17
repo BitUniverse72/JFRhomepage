@@ -1,184 +1,127 @@
 body {
-    background-color: #0e0e0e;
-    color: #ffffff;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header {
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5% 5% 5% 5%;
-    border-bottom: 0.5vh solid #8B0000;
-    box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1);
-  }
-  
-  .header-title {
-    color: #ffffff;
-    font-weight: 700;
-    flex: 1;
-    text-align: center;
-    margin: 0;
-    font-size: 5vw;
-    text-shadow: 0.2vw 0.2vw 0.3vw #8B0000;
-  }
-  
-  .logo-img {
-    width: 10vw;
-    height: auto;
-  }
-  
-  .navbar {
-    background-color: #141414;
-    border-bottom: 0.4vh solid #8B0000;
-    justify-content: center;
-  }
-  
-  .navbar-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-  }
-  
-  .navbar-brand,
-  .navbar-nav .nav-link {
-    color: #ffffff !important;
-    font-weight: 500;
-    font-size: 1.2vw;
-    transition: color 0.3s ease;
-    text-align: center;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #ff4d4d !important;
-    text-decoration: underline;
-  }
-  
-  .container {
-    padding: 5% 5%;
-    max-width: 90%;
-    text-align: center;
-  }
-  
-  h2 {
-    color: #ff4d4d;
-    margin-bottom: 3%;
-    font-size: 3vw;
-  }
-  
-  h4 {
-    color: #ffffff;
-    margin-top: 4%;
-    font-weight: 600;
-    border-left: 0.8vw solid #8B0000;
-    padding-left: 2%;
-    text-align: left;
-  }
-  
-  .social-icons {
-    margin-top: 3%;
-  }
-  
-  .social-icons i {
-    font-size: 3vw;
-    margin-right: 3%;
-    color: white;
-    transition: color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .social-icons i:hover {
-    color: #ff4d4d;
-    transform: scale(1.1);
-  }
-  
-  a {
-    color: #ff4d4d;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  ul {
-    padding-left: 4%;
-    text-align: left;
-  }
-
-  .fp-widget {
-    margin-top: 3%;
-    background-color: #0e0e0e;
-    border: none;
-    box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1);
-  }
-  
-  @media (max-width: 576px) {
-    .header-title {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-  
-    .navbar-nav .nav-link {
-      padding: 0.75rem 1rem;
-      font-size: 1.1rem;
-    }
-  }
-  
-  /* Dropdown-Menü auf kleinen Geräten: voller Breite und unter dem Menüpunkt */
-@media (max-width: 767.98px) {
-  .dropdown-menu {
-    position: static;
-    float: none;
-    box-shadow: none;
-    background-color: transparent;
-    padding-left: 1rem;
-  }
-
-  .dropdown-menu .dropdown-item {
-    color: #ffffff;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-  }
-
-  .dropdown-menu .dropdown-item:hover {
-    background-color: #222;
-  }
-
-  .navbar-nav {
-    gap: 0; /* Lücken entfernen, vertikal gestapelt */
-  }
+  background-color: #0e0e0e;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Schriftgröße im Menü auf kleineren Displays anpassen */
+.header {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 5% 5% 5%;
+  border-bottom: 0.5vh solid #8B0000;
+  box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1);
+}
+
+.header-title {
+  color: #ffffff;
+  font-weight: 700;
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  font-size: 5vw;
+  text-shadow: 0.2vw 0.2vw 0.3vw #8B0000;
+}
+
+.logo-img {
+  width: 10vw;
+  height: auto;
+}
+
+.navbar {
+  background-color: #141414;
+  border-bottom: 0.4vh solid #8B0000;
+  justify-content: center;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 1.2vw;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff4d4d !important;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 5% 5%;
+  max-width: 90%;
+  text-align: center;
+}
+
+h2 {
+  color: #ff4d4d;
+  margin-bottom: 3%;
+  font-size: 3vw;
+}
+
+h4 {
+  color: #ffffff;
+  margin-top: 4%;
+  font-weight: 600;
+  border-left: 0.8vw solid #8B0000;
+  padding-left: 2%;
+  text-align: left;
+}
+
+.social-icons {
+  margin-top: 3%;
+}
+
+.social-icons i {
+  font-size: 3vw;
+  margin-right: 3%;
+  color: white;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons i:hover {
+  color: #ff4d4d;
+  transform: scale(1.1);
+}
+
+a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 4%;
+  text-align: left;
+}
+
 @media (max-width: 576px) {
+  .header-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+  }
+
   .navbar-nav .nav-link {
     font-size: 1rem;
     text-align: left;
   }
 }
-
-
-/* Pfeil bei .dropdown-toggle entfernen */
-.no-caret::after {
-  display: none !important;
-}
-
-/* Slide-Down Animation */
-.dropdown-menu {
-  display: none;
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: all 0.3s ease;
-}
-
-/* Aktivierte Dropdown-Menüs: sichtbar + animiert */
-.dropdown.show .dropdown-menu {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
