@@ -128,3 +128,35 @@ body {
     }
   }
   
+  /* Dropdown-Menü auf kleinen Geräten: voller Breite und unter dem Menüpunkt */
+@media (max-width: 767.98px) {
+  .dropdown-menu {
+    position: static;
+    float: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding-left: 1rem;
+  }
+
+  .dropdown-menu .dropdown-item {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #222;
+  }
+
+  .navbar-nav {
+    gap: 0; /* Lücken entfernen, vertikal gestapelt */
+  }
+}
+
+/* Schriftgröße im Menü auf kleineren Displays anpassen */
+@media (max-width: 576px) {
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
