@@ -160,3 +160,25 @@ body {
     text-align: left;
   }
 }
+
+
+/* Pfeil bei .dropdown-toggle entfernen */
+.no-caret::after {
+  display: none !important;
+}
+
+/* Slide-Down Animation */
+.dropdown-menu {
+  display: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+/* Aktivierte Dropdown-Menüs: sichtbar + animiert */
+.dropdown.show .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
