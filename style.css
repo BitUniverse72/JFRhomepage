@@ -30,6 +30,11 @@ body {
   width: 10vw;
   height: auto;
 }
+@media (max-width: 600px) {
+  .logo-img {
+    width: 25vw; /* oder z. B. 80px */
+  }
+}
 
 .navbar {
   background-color: #141414;
