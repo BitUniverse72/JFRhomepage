@@ -87,6 +87,11 @@ h4 {
 .social-icons {
   margin-top: 3%;
 }
+@media (max-width: 600px) {
+  .logo-img {
+    width: 15vw; /* oder z. B. 80px */
+  }
+}
 
 .social-icons i {
   font-size: 3vw;
