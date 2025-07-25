@@ -28,72 +28,53 @@
 
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="container">
-        <a class="navbar-brand d-md-none" href="index.html">JF Ravenstein</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand d-md-none" href="index.html">JF Ravenstein</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul
-            class="navbar-nav w-100 flex-column flex-md-row justify-content-md-center align-items-start">
-            <li class="nav-item"><a class="nav-link"
-                href="index.html">Startseite</a></li>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav w-100 flex-column flex-md-row justify-content-md-center align-items-start">
 
-            <!-- Dropdown für Jugenden -->
-            <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Startseite</a>
+        </li>
 
-              <a class="nav-link" href="#" data-bs-toggle="collapse"
-                data-bs-target="#jugend-navbar">Jugenden</a>
+        <!-- Dropdown für Jugenden -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="jugendenDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Jugenden
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="jugendenDropdown">
+            <li><a class="dropdown-item" href="pages/jugenden/u19.html">A-Jugend</a></li>
+            <li><a class="dropdown-item" href="pages/jugenden/u17.html">B-Jugend</a></li>
+            <li><a class="dropdown-item" href="pages/jugenden/u15.html">C-Jugend</a></li>
+            <li><a class="dropdown-item" href="pages/jugenden/u12.html">D-Jugend</a></li>
+            <li><a class="dropdown-item" href="pages/jugenden/u9.html">E-Jugend</a></li>
+            <li><a class="dropdown-item" href="pages/jugenden/u7.html">F-Jugend</a></li>
+            <li><a class="dropdown-item" href="pages/jugenden/bambini.html">Bambini</a></li>
+          </ul>
+        </li>
 
-              <div class="collapse" id="jugend-navbar">
+        <li class="nav-item">
+          <a class="nav-link" href="pages/mitgliedschaft.html">Mitgliedschaft</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/datenschutz.html">Impressum und Datenschutz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/sonstiges.html">Sonstiges</a>
 
-                <ul class="navbar-nav">
-
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/u19.html">A-jugend</a></li>
-
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/u17.html">B-Jugend</a></li>
-
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/u15.html">C-Jugend</a></li>
-                  
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/u12.html">D-Jugend</a></li>
-                  
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/u9.html">E-Jugend</a></li>
-
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/u7.html">F-Jugend</a></li>
-
-                  <li class="nav-item"><a class="nav-link"
-                      href="pages/jugenden/bambini.html">Bambini</a></li>
-                
-
-                </ul>
-              </div>
-              <li class="nav-item"><a class="nav-link"
-                  href="pages/mitgliedschaft.html">Mitgliedschaft</a></li>
-
-                <li class="nav-item"><a class="nav-link"
-                    href="pages/datenschutz.html"> Impressum und Datenschutz</a></li>
-
-                <li class="nav-item"><a class="nav-link"
-                    href="pages/sonstiges.html">Sonstiges</a>
-                  
-                </li>
-
-                
-              </ul>
-            </div>
-          </div>
-        </nav>
+      </ul>
+    </div>
+  </div>
+</nav>
 
         <!-- Hauptinhalt -->
         <div class="container">
