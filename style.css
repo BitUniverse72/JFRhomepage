@@ -135,3 +135,7 @@ ul {
     text-align: left;
   }
 }
+.dropdown-menu {
+  background-color: #ff4d4d;
+  box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1);
+}
