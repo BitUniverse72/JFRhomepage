@@ -146,6 +146,7 @@ ul {
 
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus {
-  background-color: #e60000 !important;
+  background-color: #e73131 !important;
   color: #fff !important;
+    text-decoration: none !important;
 }
