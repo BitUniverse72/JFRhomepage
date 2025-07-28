@@ -136,8 +136,8 @@ ul {
   }
 }
 .dropdown-menu {
-  background-color: #ff4d4d !important;
-  box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1) !important;
+  background-color: #ff4d4d;
+  box-shadow: 0 0.5vh 1vh rgba(255, 0, 0, 0.1);
 }
 
 .dropdown-menu .dropdown-item {
@@ -146,7 +146,7 @@ ul {
 
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus {
-  background-color: #e73131 !important;
+  background-color: #e60000 !important;
   color: #fff !important;
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
