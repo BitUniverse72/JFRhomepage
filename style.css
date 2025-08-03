@@ -156,7 +156,15 @@ ul {
   }
 
   .social-icons i {
-    font-size: 2rem;
+    font-size: 2rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: block;
   }
 
   .navbar-nav .nav-link {
@@ -170,3 +178,4 @@ ul {
     padding: 0.75rem 1.5rem;
   }
 }
+
