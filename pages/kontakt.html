@@ -23,21 +23,74 @@
   </header>
   
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Startseite</a></li>
-          <li class="nav-item"><a class="nav-link" href="geschichte.html">Geschichte</a></li>
-          <li class="nav-item"><a class="nav-link" href="jugenden.html">Jugenden</a></li>
-          <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-          <li class="nav-item"><a class="nav-link" href="datenschutz.html">Datenschutz</a></li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container">
+    <a class="navbar-brand d-md-none" href="index.html">JF Ravenstein</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav w-100 flex-column flex-md-row justify-content-md-center align-items-start">
+
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Startseite</a>
+        </li>
+
+        <!-- Dropdown für Jugenden -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="jugendenDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Jugenden
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="jugendenDropdown">
+            <li><a class="dropdown-item" href="jugenden/u19.html">A-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u17.html">B-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u15.html">C-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u12.html">D-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u9.html">E-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u7.html">F-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/bambini.html">Bambini</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./mitgliedschaft.html">Mitgliedschaft und Datenschutz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./datenschutz.html">Impressum</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./kontakt.html">Kontakt</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./sonstiges.html">Sonstiges</a>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 
   <!-- Hauptinhalt -->
   <div class="container">
-    <h2>Kontakt</h2>
+
+    <div class="kontakt-info">
+      <h1>Kontakt</h1>
+      <figure>
+        <img src="organigramm.png" alt="Organigramm" class="img-fluid">
+        </figure>
+        <p> <h2> Kontakt der Vorsitzenden</h2>
+        <br>
+        DIe Vorsitzenden können unter folgender Mail-Adresse erreicht kontaktiert werden: vorname.nachname@jf-ravenstein.de</p>
+       
+
+  </div>
+        
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
