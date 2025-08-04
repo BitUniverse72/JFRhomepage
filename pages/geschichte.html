@@ -23,8 +23,8 @@
   </header>
   
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <div class="container d-md-flex d-block text-center">
+<nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container d-md-flex d-block text-center">
     <a class="navbar-brand d-md-none mx-auto mb-2" href="index.html">JF Ravenstein</a>
 
     <button class="navbar-toggler mx-auto mb-2" type="button"
@@ -32,40 +32,104 @@
       aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Startseite</a></li>
-          <li class="nav-item"><a class="nav-link" href="/mitgliedschaft.html">Mitgliedschaft</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#jugend-navbar">Jugenden</a>
-            <div class="collapse" id="jugend-navbar">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/jugenden/u19.html">A-jugend</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jugenden/u17.html">B-Jugend</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jugenden/u15.html">C-Jugend</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jugenden/u12.html">D-Jugend</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jugenden/u9.html">E-Jugend</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jugenden/u7.html">F-Jugend</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jugenden/bambini.html">Bambini</a></li>
+    </button>
 
-              </ul>
-            </div>
-          </li>          
-          <li class="nav-item"><a class="nav-link" href="/kontakt.html">Kontakt</a></li>
-          <li class="nav-item"><a class="nav-link" href="/datenschutz.html">Datenschutz</a></li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav w-100 flex-column flex-md-row justify-content-md-center align-items-start">
+
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Startseite</a>
+        </li>
+
+        <!-- Dropdown für Jugenden -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="jugendenDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Jugenden
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="jugendenDropdown">
+            <li><a class="dropdown-item" href="jugenden/u19.html">A-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u17.html">B-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u15.html">C-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u12.html">D-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u9.html">E-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/u7.html">F-Jugend</a></li>
+            <li><a class="dropdown-item" href="jugenden/bambini.html">Bambini</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./mitgliedschaft.html">Mitgliedschaft und Datenschutz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./datenschutz.html">Impressum</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./kontakt.html">Kontakt</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="./geschichte.html">Geschichte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./shop.html">Shop</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./sonstiges.html">Sonstiges</a>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
 
   <!-- Hauptinhalt -->
   <div class="container">
-    <h1>Geschichte</h1>
-    <p>Die Geschichte des Vereins ist noch nicht bekannt.</p>
+
+    <div class="kontakt-info">
+      <h1>Geschichte</h1>
+      <p> Wie bereits auf der Startseite erwähnt ist der JFR  ein Verein für Jugendfußball, 
+        der alle Ortsteile von Ravenstein vereint. 
+        Gegründet 2005 durch die Zusammenlegung der Jungendfußballabteilungen der Vereine TSV Oberwittstadt, SV Ballenberg und TSV Merchingen.
+        <br>
+        Der Verein hat sich seitdem stetig weiterentwickelt und bietet Kindern aller Altersklassen die Möglichkeit,
+        Fußball zu spielen und sich sportlich zu betätigen.
+        <br>
+        Die Jugendarbeit des JFR legt großen Wert auf Teamgeist, Fairness und die Förderung junger Talente.
+        <br>
+        Der Verein organisiert regelmäßig Trainings, Turniere und andere Veranstaltungen, um die Begeisterung für
+        den Fußball zu fördern und die Gemeinschaft zu stärken - Nicht nur auf dem Platz sondern auch neben dem Platz setzt sich 
+        der JFR für seinen Nachwuchs ein. 
+        <br>
+        <br>
+        <h2>Spielgemeinschaft</h2>
+        In den letzten Jahren Jahren hat die Anzahl der Kinder, die bei uns im Verein Fußball spielen, nachgelassen. 
+        Daher ist es in den letzten Jahren immer schwieriger geworden,
+        eine Mannschaft für jede Altersklasse zu stellen. Deshalb bilden wir mit dem TSV Rosenberg in einigen Alterskalssen 
+        Spielgeimschaften. Das Training findet daher sowohl auf den Sportplätzen des TSV Rosenberg als auch auf den 
+        Plätzen in Ravenstein statt.
+        <br>
+
+        <h1> Größte Eroflge</h1>
+        <ul> 
+        <li>2006/2007: Meisterschaft der B-Junioren in der Kreisliga Buchen und damit der erste Aufstieg in die Landesliga 
+          Odenwald der Vereinsgeschichte. Die Mannschaft konnte 45 Punkte aus 18 Spielen mit einem Torverhältnis von 74:24 erreichen. </li>
+        <li>2017/2018: Meisterschaft der C-Juioren in der Kreisliag Buchen. Aufsteig in die Landesliga Odenbald bei einem Torverhältnis 
+          von 135:6 Toren und 42 Punkkten aus 14 Spielen</li>
+          <li> 2020/2021: Meisterschaft der B-Junioren in der Kreisklasse Buchen und damit verbundener Aufsteig in die Landesliga Odenwald.
+            Mit 37 Punkten aus 14 Spielen und einem Torverhältnis von 52:17 Toren konnte die Mannschaft den ersten Platz belegen.</li>
+        <li>2020/2021: Kreispokal Sieg der C-Junioren. In einem einseitigen Finale konnte man sich mit einem 11:0 Sieg gegen den SV Waldhausen durchsetzen.</li>
+          <li>2021/2022: Kreispokal Sieg der A-Junioren. In einer Aussenseiter-Rolle konnte man sich gegen den TSV Mudau mit 2:1 durchsetzen und damit 
+            den Kreispokal Buchen gewinnen. Gleichzeitig bedeuetete das die Qualifikation für den Verbandspokal Baden</li>
+        <li>2022/2023: Landesliga Vize-Meisterschaft der A-Junioren. Nach einem guten Platz 2 mit 39 Punkten aus 18 Spielen und 70:32 Toren trat die Mannschaft 
+          nach Verzicht des erstplazierten JSG Nassig am Relegationsspiel gegen die JSG Neckar-Odenwald an. In guten Spiel konnte die Mannschaft mit 5:1 gewinnen 
+          und den ersten Aufstieg in die Verbandsliga Baden der Vereinsgeschichte feiern.</li>
+
+          </li>
+        </ul>
+
   </div>
- 
+        
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
