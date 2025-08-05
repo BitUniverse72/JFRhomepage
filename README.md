@@ -1,4 +1,4 @@
-<h1> Static Website example for clubs or NGOs <h1>
+<h1> Static Website example for clubs or NGOs </h1>
 
 
 A simple html Website including minimal css-rules and bootstrap 5 elemments. 
